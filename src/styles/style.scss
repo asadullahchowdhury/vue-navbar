@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.vue-nav {
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  background: #555555;
+
+  .nav-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vue-nav-brand {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .vue-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+
+    li {
+      a, router-link {
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+
+/* Container */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  /* Breakpoints */
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+
+}
+
+
+/* Container-fluid */
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
