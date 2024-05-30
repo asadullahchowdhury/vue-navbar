@@ -10,7 +10,7 @@
 .vue-nav {
   font-family: "Raleway", sans-serif;
   padding: 20px;
-  background: #555555;
+  background: #ffffff;
 
   .nav-body {
     display: flex;
@@ -32,7 +32,7 @@
 
     li {
       a, router-link {
-        color: white;
+        color: #000;
         cursor: pointer;
         padding: 10px;
       }

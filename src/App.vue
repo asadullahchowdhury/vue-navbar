@@ -15,13 +15,9 @@ export default {
     return {
       items: [
         {
-          name:{
-            default:'vue-nav'
-          },
           container:false,
           navBg: {
-            default:'#222'
-
+            default:'#fff'
           },
 
           routes: [
